@@ -2,15 +2,11 @@
 
 <<Documentation
 Name : Akshay  
-Date : Aug 20th 2023
-Description: Bash Shell Script to print half pyramid using numbers
-Sample Input: 5
+Date : Aug 23th 2023
+Description: Bash Shell Script to do arithmetic calculations
+Sample Input: 
 Sample Output: 
-1 
-1 2 
-1 2 3 
-1 2 3 4 
-1 2 3 4 5
+
 Documentation
 
 read -p "Give the Operation:- " num1 opr num2
