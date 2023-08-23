@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 <<Documentation
 Name : Akshay  
 Date : Aug 23th 2023
@@ -9,29 +10,26 @@ Sample Output:
 
 Documentation
 
-read -p "Give the Operation:- " num1 opr num2
+read -p "Give the Operation:- " num1 opr num2       # Read 2 Numbers and operator
 
-case "$opr" in 
-        x) 
-            mul=$((num1*num2))
-            echo "Ans = $mul"
+case "$opr" in                                      # Case statement                
+        x)                                          # For Multiplication
+            mul=$((num1*num2))                      # Multiply 2 Numbers    
+            echo "Ans = $mul"                       # Print the Output
        ;;
-        +) 
-            add=$((num1+num2))
-            echo "Ans = $add"
+        +)                                           # Condition For Addition
+            add=$((num1+num2))                       # Add 2 Number
+            echo "Ans = $add"                        # Print the Output
         ;;
-        -) 
-            sub=$((num1-num2))
-            echo "Ans = $sub"
+        -)                                           # Condition For Subtraction 
+            sub=$((num1-num2))                       # Subtract 2 Numbers  
+            echo "Ans = $sub"                        # Print the Output   
         ;;
-        /) 
-            div=$((num1/num2))
-            echo "Ans = $div"
-        ;;
-         )
-             echo "Please pass the arguments through command line."
+        /)                                           # Condition  For Division
+            div=$((num1/num2))                       # Sivide 2 numbers
+            echo "Ans = $div"                        # Print the Output  
         ;;
         *)
-             echo "Please pass 3 arguments through command line."
+             echo "Please pass 3 arguments through command line."  # Default Condition
         ;;
-esac
+esac                                                               # End The Loop
