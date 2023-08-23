@@ -1,0 +1,41 @@
+#!/bin/sh
+
+<<Documentation
+Name : Akshay  
+Date : Aug 20th 2023
+Description: Bash Shell Script to print half pyramid using numbers
+Sample Input: 5
+Sample Output: 
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+Documentation
+
+read -p "Give the Operation:- " num1 opr num2
+
+case "$opr" in 
+        x) 
+            mul=$((num1*num2))
+            echo "Ans = $mul"
+       ;;
+        +) 
+            add=$((num1+num2))
+            echo "Ans = $add"
+        ;;
+        -) 
+            sub=$((num1-num2))
+            echo "Ans = $sub"
+        ;;
+        /) 
+            div=$((num1/num2))
+            echo "Ans = $div"
+        ;;
+         )
+             echo "Please pass the arguments through command line."
+        ;;
+        *)
+             echo "Please pass 3 arguments through command line."
+        ;;
+esac
