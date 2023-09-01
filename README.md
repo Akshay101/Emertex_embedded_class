@@ -1,3 +1,2 @@
-# Emertex_embedded_class
-All the class codes that I was made during class.
-This repository consists of m assignments, classwork, Homework etc.
+# Emertex_embedded_class #
+The Folder Contain all the programs made during the Linux System Class
